@@ -1,0 +1,134 @@
+[0.021s] Invoking command in '/home/anson/ros2_drone_ws/src/my_drone/build/my_drone': CONDA_PROMPT_MODIFIER=(base) /usr/share/sumo/bin/cmake /home/anson/ros2_drone_ws/src/my_drone -DCMAKE_INSTALL_PREFIX=/home/anson/ros2_drone_ws/src/my_drone/install/my_drone
+[0.173s] -- The C compiler identification is GNU 11.4.0
+[0.618s] -- The CXX compiler identification is GNU 11.4.0
+[0.943s] -- Detecting C compiler ABI info
+[1.101s] -- Detecting C compiler ABI info - done
+[1.110s] -- Check for working C compiler: /usr/share/sumo/bin/cc - skipped
+[1.110s] -- Detecting C compile features
+[1.111s] -- Detecting C compile features - done
+[1.115s] -- Detecting CXX compiler ABI info
+[1.262s] -- Detecting CXX compiler ABI info - done
+[1.271s] -- Check for working CXX compiler: /usr/share/sumo/bin/c++ - skipped
+[1.271s] -- Detecting CXX compile features
+[1.272s] -- Detecting CXX compile features - done
+[1.275s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.462s] -- Found Python3: /usr/share/sumo/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.582s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.771s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.778s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.790s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.807s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.830s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.927s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.931s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.214s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.577s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.042s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.057s] -- Looking for pthread.h
+[7.208s] -- Looking for pthread.h - found
+[7.208s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.363s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.364s] -- Found Threads: TRUE  
+[7.431s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[7.449s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[7.473s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[7.488s] -- Found PkgConfig: /usr/share/sumo/bin/pkg-config (found version "0.29.2") 
+[7.489s] -- Checking for module 'bullet>=2.82'
+[7.504s] --   Found bullet, version 3.05
+[7.678s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[7.739s] -- Found assimp: /usr/include (found version "5.2.0") 
+[7.763s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[7.790s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[8.181s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[8.190s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.199s] -- Searching for dependencies of ignition-math6
+[8.201s] -- Looking for OGRE...
+[8.202s] -- OGRE_PREFIX_WATCH changed.
+[8.209s] -- Checking for module 'OGRE'
+[8.224s] --   Found OGRE, version 1.9.0
+[8.262s] -- Found Ogre Ghadamon (1.9.0)
+[8.670s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[8.683s] -- Looking for OGRE_Paging...
+[9.051s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[9.051s] -- Looking for OGRE_Terrain...
+[9.407s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[9.407s] -- Looking for OGRE_Property...
+[9.768s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[9.768s] -- Looking for OGRE_RTShaderSystem...
+[10.114s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[10.115s] -- Looking for OGRE_Volume...
+[10.488s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[10.488s] -- Looking for OGRE_Overlay...
+[10.837s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[30.240s] -- Looking for ignition-math6 -- found version 6.15.1
+[30.244s] -- Looking for ignition-transport8 -- found version 8.2.1
+[30.244s] -- Searching for dependencies of ignition-transport8
+[31.496s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[32.721s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[32.735s] -- Checking for module 'libzmq >= 4'
+[32.744s] --   Found libzmq , version 4.3.4
+[32.788s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[32.834s] -- Checking for module 'uuid'
+[32.850s] --   Found uuid, version 2.37.2
+[32.887s] -- Found UUID: TRUE  
+[32.892s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[32.892s] -- Searching for dependencies of ignition-msgs5
+[34.068s] -- Looking for ignition-math6 -- found version 6.15.1
+[34.074s] -- Checking for module 'tinyxml2'
+[34.089s] --   Found tinyxml2, version 9.0.0
+[34.130s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[34.134s] -- Looking for ignition-common3 -- found version 3.14.0
+[34.135s] -- Searching for dependencies of ignition-common3
+[34.171s] -- Looking for dlfcn.h - found
+[34.206s] -- Looking for libdl - found
+[34.208s] -- Found DL: TRUE  
+[34.291s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[34.292s] -- Searching for <ignition-common3> component [graphics]
+[34.296s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[34.297s] -- Searching for dependencies of ignition-common3-graphics
+[34.297s] -- Looking for ignition-math6 -- found version 6.15.1
+[34.302s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[34.303s] -- Searching for dependencies of ignition-fuel_tools4
+[35.801s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[35.813s] -- Checking for module 'jsoncpp'
+[35.827s] --   Found jsoncpp, version 1.9.5
+[35.867s] -- Found JSONCPP: TRUE  
+[35.875s] -- Checking for module 'libzip'
+[35.889s] --   Found libzip, version 1.7.3
+[35.927s] -- Found ZIP: TRUE  
+[35.928s] -- Looking for ignition-common3 -- found version 3.14.0
+[35.928s] -- Looking for ignition-math6 -- found version 6.15.1
+[35.929s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[35.935s] -- Gazebo version: 11.10
+[35.935s] -- Checking for module 'tbb'
+[35.951s] --   Found tbb, version 2021.5.0
+[35.995s] -- Found gazebo_ros2_control: 0.4.10 (/opt/ros/humble/share/gazebo_ros2_control/cmake)
+[37.648s] Error parsing '/home/anson/ros2_drone_ws/src/my_drone/package.xml':
+[37.711s] Traceback (most recent call last):
+[37.712s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[37.712s]     main()
+[37.712s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[37.712s]     raise e
+[37.712s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[37.712s]     package = parse_package_string(
+[37.713s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[37.713s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[37.713s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/anson/ros2_drone_ws/src/my_drone/package.xml':
+[37.713s] Error(s):
+[37.713s] - The generic dependency on 'rclcpp' is redundant with: exec_depend
+[37.713s] - The generic dependency on 'geometry_msgs' is redundant with: exec_depend
+[37.737s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[37.737s]   execute_process(/usr/share/sumo/bin/python3
+[37.738s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[37.738s]   /home/anson/ros2_drone_ws/src/my_drone/package.xml
+[37.738s]   /home/anson/ros2_drone_ws/src/my_drone/build/my_drone/ament_cmake_core/package.cmake)
+[37.738s]   returned error code 1
+[37.738s] Call Stack (most recent call first):
+[37.738s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[37.738s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[37.738s]   CMakeLists.txt:24 (ament_package)
+[37.738s] 
+[37.738s] [0m
+[37.739s] -- Configuring incomplete, errors occurred!
+[37.739s] See also "/home/anson/ros2_drone_ws/src/my_drone/build/my_drone/CMakeFiles/CMakeOutput.log".
+[37.761s] Invoked command in '/home/anson/ros2_drone_ws/src/my_drone/build/my_drone' returned '1': CONDA_PROMPT_MODIFIER=(base) /usr/share/sumo/bin/cmake /home/anson/ros2_drone_ws/src/my_drone -DCMAKE_INSTALL_PREFIX=/home/anson/ros2_drone_ws/src/my_drone/install/my_drone

@@ -1,0 +1,516 @@
+[0.000000] (-) TimerEvent: {}
+[0.000446] (my_drone) JobQueued: {'identifier': 'my_drone', 'dependencies': OrderedDict()}
+[0.000536] (my_drone) JobStarted: {'identifier': 'my_drone'}
+[0.011710] (my_drone) JobProgress: {'identifier': 'my_drone', 'progress': 'cmake'}
+[0.014300] (my_drone) Command: {'cmd': ['/usr/share/sumo/bin/cmake', '/home/anson/ros2_drone_ws/src/my_drone', '-DCMAKE_INSTALL_PREFIX=/home/anson/ros2_drone_ws/src/my_drone/install/my_drone'], 'cwd': '/home/anson/ros2_drone_ws/src/my_drone/build/my_drone', 'env': OrderedDict([('LESSOPEN', '| /usr/share/sumo/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'anson'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/anson'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/anson/ros2_drone_ws'), ('NVM_BIN', '/home/anson/.nvm/versions/node/v20.18.0/bin'), ('NVM_INC', '/home/anson/.nvm/versions/node/v20.18.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('NVM_DIR', '/home/anson/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/anson/ros2_drone_ws/install:/home/anson/drone_ws/install:/home/anson/ros2_ws_path/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'anson'), ('NAME', 'Anson'), ('WSL_INTEROP', '/run/WSL/306_interop'), ('SUMO_HOME', '/usr/share/sumo'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/share/sumo/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/anson/ros2_maze_robot/src/maze_robot/models:/usr/share/gazebo-11/models'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/share/sumo/bin:/home/anson/.local/bin:/usr/share/sumo/bin:/opt/ros/humble/bin:/home/anson/.local/bin:/home/anson/go/bin:/home/anson/.local/opt/go/bin:/home/anson/.nvm/versions/node/v20.18.0/bin:/home/anson/miniconda3/bin:/home/anson/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.3.26.0_x64__8wekyb3d8bbwe:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit:/mnt/c/Users/sanso/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sanso/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/sanso/.dotnet/tools:/mnt/c/Program Files/gnuplot/bin:/snap/bin:/usr/local/cuda/bin:/usr/bin:/usr/bin:/usr/local/cuda/bin:/usr/bin:/usr/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/anson/ros2_drone_ws/install/my_drone:/home/anson/drone_ws/install/drone_sim:/home/anson/ros2_ws_path/install/multi_robot_path_planner:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/anson/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/share/sumo/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('ENVMAN_LOAD', 'loaded'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11'), ('PWD', '/home/anson/ros2_drone_ws/src/my_drone/build/my_drone'), ('CONDA_EXE', '/home/anson/miniconda3/bin/conda'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/usr/share/sumo/tools:/home/anson/ros2_drone_ws/build/my_drone:/home/anson/ros2_drone_ws/install/my_drone/lib/python3.10/site-packages:/home/anson/ros2_ws_path/install/multi_robot_path_planner/lib/python3.10/site-packages:/usr/share/sumo/tools:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/anson/miniconda3'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/anson/ros2_drone_ws/install/my_drone:/home/anson/drone_ws/install/drone_sim'), ('WSLENV', '')]), 'shell': False}
+[0.098176] (-) TimerEvent: {}
+[0.172925] (my_drone) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.198268] (-) TimerEvent: {}
+[0.298664] (-) TimerEvent: {}
+[0.399038] (-) TimerEvent: {}
+[0.499532] (-) TimerEvent: {}
+[0.600070] (-) TimerEvent: {}
+[0.618467] (my_drone) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.700195] (-) TimerEvent: {}
+[0.800585] (-) TimerEvent: {}
+[0.900979] (-) TimerEvent: {}
+[0.943823] (my_drone) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.001197] (-) TimerEvent: {}
+[1.101291] (my_drone) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.101493] (-) TimerEvent: {}
+[1.110438] (my_drone) StdoutLine: {'line': b'-- Check for working C compiler: /usr/share/sumo/bin/cc - skipped\n'}
+[1.110799] (my_drone) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.111258] (my_drone) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.115949] (my_drone) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.201650] (-) TimerEvent: {}
+[1.262509] (my_drone) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.271497] (my_drone) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/share/sumo/bin/c++ - skipped\n'}
+[1.271933] (my_drone) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.272589] (my_drone) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.275944] (my_drone) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.301723] (-) TimerEvent: {}
+[1.402071] (-) TimerEvent: {}
+[1.462296] (my_drone) StdoutLine: {'line': b'-- Found Python3: /usr/share/sumo/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.502201] (-) TimerEvent: {}
+[1.582079] (my_drone) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.602310] (-) TimerEvent: {}
+[1.702607] (-) TimerEvent: {}
+[1.771545] (my_drone) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.778755] (my_drone) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.790216] (my_drone) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.802686] (-) TimerEvent: {}
+[1.807438] (my_drone) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.830261] (my_drone) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.902824] (-) TimerEvent: {}
+[1.927122] (my_drone) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.931031] (my_drone) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.002972] (-) TimerEvent: {}
+[2.103448] (-) TimerEvent: {}
+[2.203882] (-) TimerEvent: {}
+[2.304276] (-) TimerEvent: {}
+[2.404651] (-) TimerEvent: {}
+[2.505008] (-) TimerEvent: {}
+[2.605362] (-) TimerEvent: {}
+[2.705720] (-) TimerEvent: {}
+[2.806074] (-) TimerEvent: {}
+[2.906503] (-) TimerEvent: {}
+[3.006925] (-) TimerEvent: {}
+[3.107269] (-) TimerEvent: {}
+[3.207628] (-) TimerEvent: {}
+[3.214565] (my_drone) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.307792] (-) TimerEvent: {}
+[3.408251] (-) TimerEvent: {}
+[3.508682] (-) TimerEvent: {}
+[3.609111] (-) TimerEvent: {}
+[3.709569] (-) TimerEvent: {}
+[3.809992] (-) TimerEvent: {}
+[3.910486] (-) TimerEvent: {}
+[4.010928] (-) TimerEvent: {}
+[4.111360] (-) TimerEvent: {}
+[4.211767] (-) TimerEvent: {}
+[4.312235] (-) TimerEvent: {}
+[4.412603] (-) TimerEvent: {}
+[4.512970] (-) TimerEvent: {}
+[4.577214] (my_drone) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.613095] (-) TimerEvent: {}
+[4.713487] (-) TimerEvent: {}
+[4.813925] (-) TimerEvent: {}
+[4.914300] (-) TimerEvent: {}
+[5.014730] (-) TimerEvent: {}
+[5.115154] (-) TimerEvent: {}
+[5.215561] (-) TimerEvent: {}
+[5.316000] (-) TimerEvent: {}
+[5.416391] (-) TimerEvent: {}
+[5.516849] (-) TimerEvent: {}
+[5.617336] (-) TimerEvent: {}
+[5.717787] (-) TimerEvent: {}
+[5.818160] (-) TimerEvent: {}
+[5.918576] (-) TimerEvent: {}
+[6.019081] (-) TimerEvent: {}
+[6.119546] (-) TimerEvent: {}
+[6.220009] (-) TimerEvent: {}
+[6.320502] (-) TimerEvent: {}
+[6.420953] (-) TimerEvent: {}
+[6.521380] (-) TimerEvent: {}
+[6.621744] (-) TimerEvent: {}
+[6.722332] (-) TimerEvent: {}
+[6.822685] (-) TimerEvent: {}
+[6.923108] (-) TimerEvent: {}
+[7.023566] (-) TimerEvent: {}
+[7.042278] (my_drone) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.056963] (my_drone) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.123684] (-) TimerEvent: {}
+[7.208378] (my_drone) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.208898] (my_drone) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.223809] (-) TimerEvent: {}
+[7.324149] (-) TimerEvent: {}
+[7.362990] (my_drone) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[7.364267] (my_drone) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.424267] (-) TimerEvent: {}
+[7.430956] (my_drone) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[7.449725] (my_drone) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[7.473263] (my_drone) StdoutLine: {'line': b'-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[7.488140] (my_drone) StdoutLine: {'line': b'-- Found PkgConfig: /usr/share/sumo/bin/pkg-config (found version "0.29.2") \n'}
+[7.489768] (my_drone) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[7.504628] (my_drone) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[7.524397] (-) TimerEvent: {}
+[7.624798] (-) TimerEvent: {}
+[7.678086] (my_drone) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[7.724907] (-) TimerEvent: {}
+[7.739353] (my_drone) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[7.763577] (my_drone) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[7.790708] (my_drone) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[7.825026] (-) TimerEvent: {}
+[7.925491] (-) TimerEvent: {}
+[8.025926] (-) TimerEvent: {}
+[8.126349] (-) TimerEvent: {}
+[8.181021] (my_drone) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[8.190277] (my_drone) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[8.199630] (my_drone) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[8.201585] (my_drone) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[8.202387] (my_drone) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[8.209115] (my_drone) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[8.224456] (my_drone) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[8.226476] (-) TimerEvent: {}
+[8.262672] (my_drone) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[8.326613] (-) TimerEvent: {}
+[8.426984] (-) TimerEvent: {}
+[8.527382] (-) TimerEvent: {}
+[8.627812] (-) TimerEvent: {}
+[8.670359] (my_drone) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[8.683238] (my_drone) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[8.727941] (-) TimerEvent: {}
+[8.828318] (-) TimerEvent: {}
+[8.928800] (-) TimerEvent: {}
+[9.029305] (-) TimerEvent: {}
+[9.051274] (my_drone) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[9.051624] (my_drone) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[9.129554] (-) TimerEvent: {}
+[9.230064] (-) TimerEvent: {}
+[9.330470] (-) TimerEvent: {}
+[9.407288] (my_drone) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[9.407581] (my_drone) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[9.430614] (-) TimerEvent: {}
+[9.530981] (-) TimerEvent: {}
+[9.631382] (-) TimerEvent: {}
+[9.731834] (-) TimerEvent: {}
+[9.768519] (my_drone) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[9.768753] (my_drone) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[9.832002] (-) TimerEvent: {}
+[9.932388] (-) TimerEvent: {}
+[10.032715] (-) TimerEvent: {}
+[10.114686] (my_drone) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[10.115055] (my_drone) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[10.132879] (-) TimerEvent: {}
+[10.233238] (-) TimerEvent: {}
+[10.333636] (-) TimerEvent: {}
+[10.434067] (-) TimerEvent: {}
+[10.488306] (my_drone) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[10.488652] (my_drone) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[10.534193] (-) TimerEvent: {}
+[10.634620] (-) TimerEvent: {}
+[10.734974] (-) TimerEvent: {}
+[10.835372] (-) TimerEvent: {}
+[10.837075] (my_drone) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[10.935512] (-) TimerEvent: {}
+[11.035867] (-) TimerEvent: {}
+[11.136297] (-) TimerEvent: {}
+[11.236657] (-) TimerEvent: {}
+[11.337019] (-) TimerEvent: {}
+[11.437434] (-) TimerEvent: {}
+[11.537817] (-) TimerEvent: {}
+[11.638225] (-) TimerEvent: {}
+[11.738630] (-) TimerEvent: {}
+[11.839160] (-) TimerEvent: {}
+[11.939609] (-) TimerEvent: {}
+[12.040028] (-) TimerEvent: {}
+[12.140511] (-) TimerEvent: {}
+[12.240955] (-) TimerEvent: {}
+[12.341377] (-) TimerEvent: {}
+[12.441769] (-) TimerEvent: {}
+[12.542332] (-) TimerEvent: {}
+[12.642727] (-) TimerEvent: {}
+[12.743110] (-) TimerEvent: {}
+[12.843477] (-) TimerEvent: {}
+[12.943853] (-) TimerEvent: {}
+[13.044245] (-) TimerEvent: {}
+[13.144929] (-) TimerEvent: {}
+[13.245438] (-) TimerEvent: {}
+[13.345828] (-) TimerEvent: {}
+[13.446291] (-) TimerEvent: {}
+[13.546656] (-) TimerEvent: {}
+[13.647046] (-) TimerEvent: {}
+[13.747577] (-) TimerEvent: {}
+[13.848148] (-) TimerEvent: {}
+[13.948669] (-) TimerEvent: {}
+[14.049133] (-) TimerEvent: {}
+[14.149556] (-) TimerEvent: {}
+[14.250060] (-) TimerEvent: {}
+[14.350453] (-) TimerEvent: {}
+[14.450833] (-) TimerEvent: {}
+[14.551259] (-) TimerEvent: {}
+[14.651643] (-) TimerEvent: {}
+[14.752124] (-) TimerEvent: {}
+[14.852518] (-) TimerEvent: {}
+[14.952945] (-) TimerEvent: {}
+[15.053295] (-) TimerEvent: {}
+[15.153652] (-) TimerEvent: {}
+[15.254045] (-) TimerEvent: {}
+[15.354390] (-) TimerEvent: {}
+[15.454746] (-) TimerEvent: {}
+[15.555092] (-) TimerEvent: {}
+[15.655438] (-) TimerEvent: {}
+[15.755821] (-) TimerEvent: {}
+[15.856159] (-) TimerEvent: {}
+[15.956575] (-) TimerEvent: {}
+[16.057010] (-) TimerEvent: {}
+[16.157462] (-) TimerEvent: {}
+[16.257968] (-) TimerEvent: {}
+[16.358354] (-) TimerEvent: {}
+[16.458820] (-) TimerEvent: {}
+[16.559225] (-) TimerEvent: {}
+[16.659609] (-) TimerEvent: {}
+[16.760045] (-) TimerEvent: {}
+[16.860481] (-) TimerEvent: {}
+[16.960864] (-) TimerEvent: {}
+[17.061316] (-) TimerEvent: {}
+[17.161687] (-) TimerEvent: {}
+[17.262148] (-) TimerEvent: {}
+[17.362582] (-) TimerEvent: {}
+[17.462992] (-) TimerEvent: {}
+[17.563346] (-) TimerEvent: {}
+[17.665044] (-) TimerEvent: {}
+[17.765416] (-) TimerEvent: {}
+[17.865753] (-) TimerEvent: {}
+[17.966164] (-) TimerEvent: {}
+[18.066604] (-) TimerEvent: {}
+[18.167039] (-) TimerEvent: {}
+[18.267444] (-) TimerEvent: {}
+[18.367853] (-) TimerEvent: {}
+[18.468234] (-) TimerEvent: {}
+[18.568674] (-) TimerEvent: {}
+[18.669047] (-) TimerEvent: {}
+[18.769506] (-) TimerEvent: {}
+[18.869930] (-) TimerEvent: {}
+[18.970351] (-) TimerEvent: {}
+[19.070770] (-) TimerEvent: {}
+[19.171116] (-) TimerEvent: {}
+[19.271454] (-) TimerEvent: {}
+[19.371794] (-) TimerEvent: {}
+[19.472231] (-) TimerEvent: {}
+[19.572580] (-) TimerEvent: {}
+[19.672984] (-) TimerEvent: {}
+[19.773464] (-) TimerEvent: {}
+[19.873943] (-) TimerEvent: {}
+[19.974326] (-) TimerEvent: {}
+[20.074696] (-) TimerEvent: {}
+[20.175017] (-) TimerEvent: {}
+[20.275376] (-) TimerEvent: {}
+[20.375754] (-) TimerEvent: {}
+[20.476223] (-) TimerEvent: {}
+[20.576696] (-) TimerEvent: {}
+[20.677139] (-) TimerEvent: {}
+[20.777612] (-) TimerEvent: {}
+[20.878029] (-) TimerEvent: {}
+[20.979018] (-) TimerEvent: {}
+[21.079476] (-) TimerEvent: {}
+[21.179902] (-) TimerEvent: {}
+[21.280295] (-) TimerEvent: {}
+[21.380818] (-) TimerEvent: {}
+[21.481657] (-) TimerEvent: {}
+[21.582184] (-) TimerEvent: {}
+[21.682619] (-) TimerEvent: {}
+[21.783000] (-) TimerEvent: {}
+[21.883411] (-) TimerEvent: {}
+[21.983750] (-) TimerEvent: {}
+[22.084155] (-) TimerEvent: {}
+[22.184551] (-) TimerEvent: {}
+[22.284943] (-) TimerEvent: {}
+[22.385435] (-) TimerEvent: {}
+[22.485937] (-) TimerEvent: {}
+[22.586458] (-) TimerEvent: {}
+[22.687012] (-) TimerEvent: {}
+[22.787489] (-) TimerEvent: {}
+[22.887981] (-) TimerEvent: {}
+[22.988544] (-) TimerEvent: {}
+[23.088982] (-) TimerEvent: {}
+[23.189378] (-) TimerEvent: {}
+[23.289905] (-) TimerEvent: {}
+[23.390532] (-) TimerEvent: {}
+[23.491255] (-) TimerEvent: {}
+[23.591784] (-) TimerEvent: {}
+[23.692280] (-) TimerEvent: {}
+[23.792701] (-) TimerEvent: {}
+[23.893082] (-) TimerEvent: {}
+[23.993500] (-) TimerEvent: {}
+[24.093838] (-) TimerEvent: {}
+[24.194238] (-) TimerEvent: {}
+[24.294637] (-) TimerEvent: {}
+[24.395096] (-) TimerEvent: {}
+[24.495563] (-) TimerEvent: {}
+[24.596012] (-) TimerEvent: {}
+[24.696400] (-) TimerEvent: {}
+[24.796751] (-) TimerEvent: {}
+[24.897098] (-) TimerEvent: {}
+[24.997487] (-) TimerEvent: {}
+[25.097863] (-) TimerEvent: {}
+[25.198313] (-) TimerEvent: {}
+[25.298841] (-) TimerEvent: {}
+[25.399422] (-) TimerEvent: {}
+[25.499835] (-) TimerEvent: {}
+[25.600243] (-) TimerEvent: {}
+[25.700582] (-) TimerEvent: {}
+[25.800928] (-) TimerEvent: {}
+[25.901304] (-) TimerEvent: {}
+[26.001656] (-) TimerEvent: {}
+[26.102145] (-) TimerEvent: {}
+[26.202550] (-) TimerEvent: {}
+[26.302997] (-) TimerEvent: {}
+[26.403372] (-) TimerEvent: {}
+[26.503717] (-) TimerEvent: {}
+[26.604067] (-) TimerEvent: {}
+[26.704424] (-) TimerEvent: {}
+[26.804803] (-) TimerEvent: {}
+[26.905186] (-) TimerEvent: {}
+[27.005606] (-) TimerEvent: {}
+[27.105994] (-) TimerEvent: {}
+[27.206363] (-) TimerEvent: {}
+[27.306711] (-) TimerEvent: {}
+[27.407191] (-) TimerEvent: {}
+[27.507614] (-) TimerEvent: {}
+[27.608057] (-) TimerEvent: {}
+[27.708454] (-) TimerEvent: {}
+[27.808909] (-) TimerEvent: {}
+[27.909252] (-) TimerEvent: {}
+[28.009636] (-) TimerEvent: {}
+[28.110019] (-) TimerEvent: {}
+[28.210479] (-) TimerEvent: {}
+[28.310890] (-) TimerEvent: {}
+[28.411328] (-) TimerEvent: {}
+[28.511721] (-) TimerEvent: {}
+[28.612202] (-) TimerEvent: {}
+[28.712611] (-) TimerEvent: {}
+[28.812995] (-) TimerEvent: {}
+[28.913432] (-) TimerEvent: {}
+[29.013827] (-) TimerEvent: {}
+[29.114257] (-) TimerEvent: {}
+[29.214687] (-) TimerEvent: {}
+[29.315118] (-) TimerEvent: {}
+[29.415480] (-) TimerEvent: {}
+[29.516077] (-) TimerEvent: {}
+[29.616601] (-) TimerEvent: {}
+[29.717187] (-) TimerEvent: {}
+[29.817628] (-) TimerEvent: {}
+[29.918042] (-) TimerEvent: {}
+[30.018516] (-) TimerEvent: {}
+[30.118870] (-) TimerEvent: {}
+[30.219254] (-) TimerEvent: {}
+[30.239374] (my_drone) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[30.244097] (my_drone) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[30.244769] (my_drone) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[30.319391] (-) TimerEvent: {}
+[30.419745] (-) TimerEvent: {}
+[30.520141] (-) TimerEvent: {}
+[30.620490] (-) TimerEvent: {}
+[30.720906] (-) TimerEvent: {}
+[30.821282] (-) TimerEvent: {}
+[30.921695] (-) TimerEvent: {}
+[31.022215] (-) TimerEvent: {}
+[31.122626] (-) TimerEvent: {}
+[31.223018] (-) TimerEvent: {}
+[31.323478] (-) TimerEvent: {}
+[31.423848] (-) TimerEvent: {}
+[31.496219] (my_drone) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[31.524005] (-) TimerEvent: {}
+[31.624484] (-) TimerEvent: {}
+[31.725003] (-) TimerEvent: {}
+[31.825438] (-) TimerEvent: {}
+[31.926025] (-) TimerEvent: {}
+[32.026466] (-) TimerEvent: {}
+[32.126928] (-) TimerEvent: {}
+[32.227416] (-) TimerEvent: {}
+[32.327759] (-) TimerEvent: {}
+[32.428195] (-) TimerEvent: {}
+[32.528597] (-) TimerEvent: {}
+[32.628976] (-) TimerEvent: {}
+[32.721082] (my_drone) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[32.728105] (my_drone) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[32.735533] (-) TimerEvent: {}
+[32.744459] (my_drone) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[32.788546] (my_drone) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[32.833965] (my_drone) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[32.835651] (-) TimerEvent: {}
+[32.850037] (my_drone) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[32.887596] (my_drone) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[32.891885] (my_drone) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[32.892585] (my_drone) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[32.935774] (-) TimerEvent: {}
+[33.036200] (-) TimerEvent: {}
+[33.136613] (-) TimerEvent: {}
+[33.237003] (-) TimerEvent: {}
+[33.337381] (-) TimerEvent: {}
+[33.437712] (-) TimerEvent: {}
+[33.538116] (-) TimerEvent: {}
+[33.638542] (-) TimerEvent: {}
+[33.739006] (-) TimerEvent: {}
+[33.839391] (-) TimerEvent: {}
+[33.939813] (-) TimerEvent: {}
+[34.040298] (-) TimerEvent: {}
+[34.068557] (my_drone) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[34.074831] (my_drone) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[34.089754] (my_drone) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[34.130126] (my_drone) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[34.134692] (my_drone) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[34.135284] (my_drone) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[34.140389] (-) TimerEvent: {}
+[34.171493] (my_drone) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[34.206481] (my_drone) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[34.208503] (my_drone) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[34.240475] (-) TimerEvent: {}
+[34.291683] (my_drone) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[34.292551] (my_drone) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[34.296625] (my_drone) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[34.297210] (my_drone) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[34.297703] (my_drone) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[34.302539] (my_drone) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[34.303084] (my_drone) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[34.340589] (-) TimerEvent: {}
+[34.440942] (-) TimerEvent: {}
+[34.541372] (-) TimerEvent: {}
+[34.641701] (-) TimerEvent: {}
+[34.742367] (-) TimerEvent: {}
+[34.842796] (-) TimerEvent: {}
+[34.943186] (-) TimerEvent: {}
+[35.043567] (-) TimerEvent: {}
+[35.143936] (-) TimerEvent: {}
+[35.244374] (-) TimerEvent: {}
+[35.344827] (-) TimerEvent: {}
+[35.445302] (-) TimerEvent: {}
+[35.545731] (-) TimerEvent: {}
+[35.646188] (-) TimerEvent: {}
+[35.746591] (-) TimerEvent: {}
+[35.800936] (my_drone) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[35.813616] (my_drone) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[35.827873] (my_drone) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[35.846664] (-) TimerEvent: {}
+[35.867867] (my_drone) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[35.875064] (my_drone) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[35.889918] (my_drone) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[35.927718] (my_drone) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[35.928222] (my_drone) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[35.928770] (my_drone) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[35.929303] (my_drone) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[35.934983] (my_drone) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[35.935450] (my_drone) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[35.946742] (-) TimerEvent: {}
+[35.951310] (my_drone) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[35.995217] (my_drone) StdoutLine: {'line': b'-- Found gazebo_ros2_control: 0.4.10 (/opt/ros/humble/share/gazebo_ros2_control/cmake)\n'}
+[36.046859] (-) TimerEvent: {}
+[36.147238] (-) TimerEvent: {}
+[36.247680] (-) TimerEvent: {}
+[36.348118] (-) TimerEvent: {}
+[36.448615] (-) TimerEvent: {}
+[36.549071] (-) TimerEvent: {}
+[36.649440] (-) TimerEvent: {}
+[36.749852] (-) TimerEvent: {}
+[36.850234] (-) TimerEvent: {}
+[36.950657] (-) TimerEvent: {}
+[37.051005] (-) TimerEvent: {}
+[37.151398] (-) TimerEvent: {}
+[37.251740] (-) TimerEvent: {}
+[37.352311] (-) TimerEvent: {}
+[37.452772] (-) TimerEvent: {}
+[37.553193] (-) TimerEvent: {}
+[37.648284] (my_drone) StderrLine: {'line': b"Error parsing '/home/anson/ros2_drone_ws/src/my_drone/package.xml':\n"}
+[37.653282] (-) TimerEvent: {}
+[37.711428] (my_drone) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[37.711941] (my_drone) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[37.712161] (my_drone) StderrLine: {'line': b'    main()\n'}
+[37.712569] (my_drone) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[37.712709] (my_drone) StderrLine: {'line': b'    raise e\n'}
+[37.712823] (my_drone) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[37.712929] (my_drone) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[37.713031] (my_drone) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string\n'}
+[37.713134] (my_drone) StderrLine: {'line': b"    raise InvalidPackage('Error(s):%s' % (''.join(['\\n- %s' % e for e in errors])), filename)\n"}
+[37.713238] (my_drone) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/anson/ros2_drone_ws/src/my_drone/package.xml':\n"}
+[37.713362] (my_drone) StderrLine: {'line': b'Error(s):\n'}
+[37.713470] (my_drone) StderrLine: {'line': b"- The generic dependency on 'rclcpp' is redundant with: exec_depend\n"}
+[37.713573] (my_drone) StderrLine: {'line': b"- The generic dependency on 'geometry_msgs' is redundant with: exec_depend\n"}
+[37.737559] (my_drone) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[37.737799] (my_drone) StderrLine: {'line': b'  execute_process(/usr/share/sumo/bin/python3\n'}
+[37.737936] (my_drone) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[37.738251] (my_drone) StderrLine: {'line': b'  /home/anson/ros2_drone_ws/src/my_drone/package.xml\n'}
+[37.738348] (my_drone) StderrLine: {'line': b'  /home/anson/ros2_drone_ws/src/my_drone/build/my_drone/ament_cmake_core/package.cmake)\n'}
+[37.738425] (my_drone) StderrLine: {'line': b'  returned error code 1\n'}
+[37.738496] (my_drone) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[37.738567] (my_drone) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[37.738657] (my_drone) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)\n'}
+[37.738799] (my_drone) StderrLine: {'line': b'  CMakeLists.txt:24 (ament_package)\n'}
+[37.738915] (my_drone) StderrLine: {'line': b'\n'}
+[37.738990] (my_drone) StderrLine: {'line': b'\x1b[0m\n'}
+[37.739083] (my_drone) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[37.739200] (my_drone) StdoutLine: {'line': b'See also "/home/anson/ros2_drone_ws/src/my_drone/build/my_drone/CMakeFiles/CMakeOutput.log".\n'}
+[37.753430] (-) TimerEvent: {}
+[37.761127] (my_drone) CommandEnded: {'returncode': 1}
+[37.763397] (my_drone) JobEnded: {'identifier': 'my_drone', 'rc': 1}
+[37.775016] (-) EventReactorShutdown: {}

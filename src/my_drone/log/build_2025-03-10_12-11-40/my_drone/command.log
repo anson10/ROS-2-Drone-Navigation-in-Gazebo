@@ -1,0 +1,2 @@
+Invoking command in '/home/anson/ros2_drone_ws/src/my_drone/build/my_drone': CONDA_PROMPT_MODIFIER=(base) /usr/share/sumo/bin/cmake /home/anson/ros2_drone_ws/src/my_drone -DCMAKE_INSTALL_PREFIX=/home/anson/ros2_drone_ws/src/my_drone/install/my_drone
+Invoked command in '/home/anson/ros2_drone_ws/src/my_drone/build/my_drone' returned '1': CONDA_PROMPT_MODIFIER=(base) /usr/share/sumo/bin/cmake /home/anson/ros2_drone_ws/src/my_drone -DCMAKE_INSTALL_PREFIX=/home/anson/ros2_drone_ws/src/my_drone/install/my_drone
